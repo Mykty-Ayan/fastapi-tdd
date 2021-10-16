@@ -11,6 +11,8 @@ uvicorn = "0.14.0"
 tortoise-orm = "0.17.4"
 asyncpg = "0.23.0"
 aerich = "0.5.3"
+pytest = "^6.2.5"
+requests = "2.25.1"
 
 [tool.poetry.dev-dependencies]
 
