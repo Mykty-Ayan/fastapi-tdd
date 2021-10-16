@@ -8,6 +8,8 @@ authors = ["Ayan Akkassov <akkassov.ayan@gmail.com>"]
 python = "^3.8"
 fastapi = "0.65.3"
 uvicorn = "0.14.0"
+tortoise-orm = "0.17.4"
+asyncpg = "0.23.0"
 
 [tool.poetry.dev-dependencies]
 
