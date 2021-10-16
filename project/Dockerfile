@@ -2,6 +2,7 @@
 FROM python:3.8.5-slim-buster
 
 # set working directory
+RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
 # set enviroment variables
@@ -10,7 +11,7 @@ ENV PYTHONBUFFERED 1
 
 # install system dependencies
 RUN apt-get update \
- && apt-get -y insatall netcat gcc \
+ && apt-get -y install netcat gcc \
  && apt-get clean
 
 # install python dependencies \
